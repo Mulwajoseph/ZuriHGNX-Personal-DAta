@@ -3,8 +3,8 @@ const hr = document.querySelector('#hr');
 const mn = document.querySelector('#mn');
 const sc = document.querySelector('#sc');
 let dayOfWeek = document.querySelector("#dayOfWeek");
-let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday',
-'Sunday']
+let days = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday','Friday','Saturday'
+]
 
 setInterval(() => {
     let day = new Date();
