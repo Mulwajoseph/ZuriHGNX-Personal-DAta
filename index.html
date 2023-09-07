@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Information</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img data-testid="slackDisplayImage" src="img/Profile.png" alt="Mulwa Mukungi">
+        </div>
+        <div class="info">
+            <h1 data-testid="slackUserName">Name;Mulwa Mukungi</h1>
+            <h1 data-testid="myTrack">Track;Frontend</h1>
+        </div>
+        <div data-testid="currentDAyOfTheWeek" id="dayOfWeek"></div>
+        <div data-testid="currentUTCTime" id="utcTime" class="clock">
+            <div class="hour">
+                <div class="hr" id="hr"></div>
+            </div>
+            <div class="min">
+                <div class="mn" id="mn"></div>
+            </div>
+            <div class="sec">
+                <div class="sc" id="sc"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="project.js"></script>
+</body>
+</html>
